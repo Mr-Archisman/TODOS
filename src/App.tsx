@@ -53,7 +53,7 @@ const App: React.FC = () => {
     <div className="max-w-screen mx-auto p-4  bg-gray-200">
       <h1 className="text-3xl font-bold mb-4 text-center">Todo List</h1>
       <div className="flex flex-col md:flex-row gap-4 h-screen md:h-[calc(100vh-4rem)] ">
-        <div className="md:w-1/2 bg-white p-4 rounded  h-auto md:h-full overflow-y-auto md:overflow-hidden bg-gray-200">
+        <div className="md:w-1/2 bg-white p-4 rounded  h-auto md:h-full overflow-y-auto md:overflow-hidden !bg-gray-200">
           <h2 className="text-2xl font-bold mb-4">Add/Edit Task</h2>
           <TaskForm addTask={addTask} editTask={editTask} taskToEdit={taskToEdit} clearEdit={clearEdit} />
         </div>
